@@ -83,3 +83,38 @@ main {
 .mensagem:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 720px) {
+  .text-area,
+  .mensagem {
+    width: 100%;
+  }
+
+  .text-area {
+    margin-top: 20px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .btn-encriptar,
+  .btn-desencriptar {
+    width: 100%;
+  }
+
+  .btn-desencriptar {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  main {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .mensagem {
+    margin-left: 0;
+  }
+}
